@@ -19,5 +19,14 @@ namespace JuniorDevCSharp
             PHD,
             MD
         }
+
+        public enum Position
+        {
+            JUNIOR,
+            FULLSTACK,
+            SENIOR,
+            FRONTEND,
+            BACKEND
+        }
     }
 }
