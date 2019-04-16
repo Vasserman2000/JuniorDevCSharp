@@ -16,6 +16,10 @@ namespace JuniorDevCSharp
             // GET ALL JUNIOR DEVELOPERS
             var juniors = DevelopersList.Where(dev => dev.Job == JUNIOR);
 
+            // PRINT X'TH ELEMENT OF THE LIST:
+            var newList = DevelopersList.Where(dev => dev.Age > 26);
+            Console.WriteLine(newList.ElementAtOrDefault(3).FulltName);
+
 
             IList mixList = new ArrayList();
             mixList.Add(4);
